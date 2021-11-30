@@ -1,0 +1,78 @@
+<!-- Part 1 
+    2
+1) console.log("any text"); - Prints any text 
+    3
+2) console.log("any text".length); Counts the number of letters 
+    4
+3) console.log(30+5); - addition of numbers
+4) console.log(32 - 12); - subtraction of numbers
+5) console.log(1 * 1); = multiplication of numbers
+6) console.log(21 / 3); division of numbers
+7) console.log(5 > 4); console.log(5 < 4); - Comparing numbers if number is greater than true, if less than or equal to false
+8) console.log(5 >= 5); - Comparing numbers if the number is greater than or equal to true if less than false
+9) console.log(“5” === 5); false console.log(5 === 5); true Identity, if the value is exactly the same true, if there are at least parentheses, then false
+10) console.log(“4” == 4); - true console.log(“5” == 4); - false - Equality, if two numbers are the same for example 4 and 4 then true, if numbers 3 and 4 are false
+   5
+11) console.log(Math.round(1.4) * 2); - answer 2 - Rounds a number to the nearest integer
+12) console.log(Math.random()); Generates a random number
+13) console.log(Math.floor(2.9)); Rounds a number to the nearest low
+14) console.log(Math.min(1, 6}); Smallest value of numbers
+15) console.log(Math.max(3, 5)); Maximum number of all
+   6
+16) A random number between 5 and 20 - Math.floor(Math.random() * 16) + 5; - Because from 5 to 20 there are only 16 numbers and with this value numbers from 5 to 20 fall out
+17) A random number between 15 and 100 - Math.floor(Math.random() * 86) + 15; - Because from 15 to 100 there are only 86 numbers and with this value numbers from 15 to 100 fall out
+18) console.log(("Donald Trump".length) * (Math.round(6.6) + 7)); answer : 168 - The first value of length in Donald Trump is 12, the space is also considered a value, then we multiply by rounding 6.6 + 7 will be 14 because 13.6 is closer to 14, 12 multiplied by 14 is 168
+19) console.log(("1 411 890".length) / (Math.floor(3.21))); answer : 3 The first value of the length is - 9, the space is also considered a value, then divide by less rounding 3.21 will be 3, because the smaller number to this value 3, 9 divide by 3 will be 3 
+
+ -->
+<!DOCTYPE html>
+<html>
+<head>
+<title> PART 1 - 2  </title>
+</head>
+<body>
+
+<script type="text/javascript">
+  var answer = prompt("Are we there yet?");
+ 
+while (answer !== "yes" && answer !== "yeah") {
+    var answer = prompt("Are we there yet?");
+}
+ 
+alert("YAY, we've made it!");
+
+
+</script>
+<h3> TASK 1 ANSWER </h3>
+<script type="text/javascript">
+for (var i = -10; i <= 19; i+=1) {
+document.writeln(i);
+}
+
+</script>
+<h3> TASK 2 ANSWER </h3>
+<script type="text/javascript">
+for(var i=10; i<41;i+=2)
+document.writeln(i);
+</script>
+
+<h3> TASK 3 ANSWER </h3>
+<script type="text/javascript">
+for(var i = 300; i < 334; i++){
+if(!(i % 2 == 0)){
+document.write(i + " ");
+}
+};
+</script>
+
+<h3> TASK 4 ANSWER </h3>
+<script type="text/javascript">
+for(i = 5; i <= 50; i++) {
+    if(i % 5 === 0 && i % 3 === 0) {
+        document.writeln(i);
+}
+};
+</script>
+</body>
+
+</head>
